@@ -29,4 +29,4 @@ client.once('ready', () => {
 
 client.on('error', console.error);
 
-client.login('');
+client.login('NzcyNjQxNDQxNTgyNjc4MDc2.X59oag.eAvMFmaP72ZzxVBXHOAHBXLD7is');
