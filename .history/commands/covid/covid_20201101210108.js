@@ -1,0 +1,17 @@
+const Commando = require('discord.js-commando');
+const axios = require('axios')
+
+module.exports = class CommandoCommand extends Commando.Command {
+	constructor(client) {
+		super(client, {
+			name: 'covid',
+			group: 'misc',
+			memberName: 'covid',
+			description: 'Displays stats about covid.',
+		});
+	}
+
+	run = async (message, args) => {
+        message.reply('works')
+    }
+};
